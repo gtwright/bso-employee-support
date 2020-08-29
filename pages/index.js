@@ -43,10 +43,9 @@ export default function Index() {
               </Button>
               <div>
                 Please note: If you do not wish to receive support, we ask you
-                to fill out the form and select "No, I decline to request
-                support." Knowing you have explicitly declined will help us
-                direct those funds toward others in need and maintain our
-                financial accounting appropriately.
+                to explicitly decline it. This will help us direct those funds
+                toward others in need and maintain our financial accounting
+                appropriately.
               </div>
             </Box>
 
