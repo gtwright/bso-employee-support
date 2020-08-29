@@ -26,22 +26,46 @@ export default function Index() {
           Go to the about page
         </Link> */}
           <Typography>
-            Are you able to help with administration? <br />
-            <Button
-              variant="contained"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdCd6-8eYlY7ttFttusSifrA3FPhUAWOmZhnqlBUzln2M9U8A/viewform"
-            >
-              Volunteer Here
-            </Button>
-            <br />
-            <br />
-            {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZAe0ZrenSkjk8HiAMiYLY-ptRUpQUUpmVlJpzspKHLyWaOQ/viewform">
-            Request or decline support from the fund
-          </a> */}
-            Questions or Comments? Email{" "}
-            <a href="mailto:info@bsoemployeesupport.org">
-              info@bsoemployeesupport.org
-            </a>
+            <Box my={3}>
+              <div>
+                Were you impacted by the BSO's COVID-related shutdown? Please
+                provide your contact information and let us know if you would
+                like to request or decline support. Disbursements will begin
+                immediately to full-time laid off employees, followed by
+                part-time employees and others affected.
+              </div>
+              <Button
+                variant="contained"
+                href="https://forms.gle/u71aGtD8vQFPLBeP6"
+                style={{ marginTop: 8, marginBottom: 12 }}
+              >
+                Request or Decline Support
+              </Button>
+              <div>
+                Please note: If you do not wish to receive support, we ask you
+                to fill out the form and select "No, I decline to request
+                support." Knowing you have explicitly declined will help us
+                direct those funds toward others in need and maintain our
+                financial accounting appropriately.
+              </div>
+            </Box>
+
+            <Box my={3}>
+              <div>Are you able to help with administration?</div>
+              <Button
+                variant="contained"
+                style={{ marginTop: 8 }}
+                href="https://forms.gle/Hh9rybtrfbnDMdAB7"
+              >
+                Volunteer Here
+              </Button>
+            </Box>
+            <div>
+              Questions or Comments? Email{" "}
+              <a href="mailto:info@bsoemployeesupport.org">
+                info@bsoemployeesupport.org
+              </a>
+            </div>
           </Typography>
           {/* <Copyright /> */}
         </Box>
